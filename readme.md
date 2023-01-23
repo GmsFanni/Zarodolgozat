@@ -10,7 +10,11 @@ Verziókezelés
 -git commit -m "firs"
 
 
-Távoli repo összekapcsolása
--
--
+Távoli repo összekapcsolása(PAT)
+- git remote add origin <url> !@token
+-git push -u origin master
+
+
+-következőkkor
+-git push
 
