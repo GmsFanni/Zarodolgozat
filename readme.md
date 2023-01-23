@@ -18,3 +18,11 @@ Távoli repo összekapcsolása(PAT)
 -következőkkor
 -git push
 
+Clónozás
+-git clone url
+
+
+git status
+git commit
+git push
+
