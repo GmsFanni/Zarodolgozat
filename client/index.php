@@ -23,6 +23,9 @@
         <a href="#">Írj nekünk!</a>
         <a href="#">Írj nekünk!</a>
 
+        <a class="nav-link btn btn-outline-light my-2 my-sm-0" href="index.php?prog=login.php">Login</a>
+        <a class="nav-link btn btn-outline-light my-2 my-sm-0" href="index.php?prog=register.php">Register</a>
+
         <div class="form-inline my-2 my-lg-0">
         <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Bejelentkezés</button>
         <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="modal" data-target="#staticreg">Regisztráció</button>
@@ -58,78 +61,6 @@
                 </div>
             </div>
     </div>
-
-
-    <div class="modal fade" id="staticreg" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">
-                        <i class="bi bi-person-lines-fill"></i></i> Regisztráció</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                        </div>
-                         <div class="modal-body">
-                         <div class="row modal-body">
-
-                                <div class="col-5 d-flex align-items-center justify-content-center">
-                                <input type="text" class="form-control" placeholder="Vezetéknév">
-                                </div>
-                                <div class="col-5 d-flex align-items-center justify-content-between">
-                                <input type="text" class="form-control" placeholder="Keresztnév">
-                                </div>
-                        </div>
-
-
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email cím">
-                            </div>
-
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Jelszó">
-                            </div>
-
-                            
-                            <div class="form-group">
-                                <label for="formGroupExampleInput">Cím</label>
-                                
-                            <div class="col-5 d-flex align-items-center justify-content-center">
-                            <input type="text" class="form-control" placeholder="Irányítószám">
-                            </div>
-                            <div class="col-5 d-flex align-items-center justify-content-center">
-                            <input type="text" class="form-control" placeholder="Utca">
-                            </div>
-
-                            <div class="col-5 d-flex align-items-center justify-content-center">
-                            <input type="text" class="form-control" placeholder="Házszám">
-                            </div>
-                            
-                            </div>
-
-                            <div class="col-5 d-flex align-items-center justify-content-center">
-                            <input type="text" class="form-control" placeholder="Telefonszám">
-                            </div>
-                        
-
-
-
-                            <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Szeretnél hírlevélre feliratkozni?</label>
-                            </div>
-
-                            <div class="d-flex align-items-center justify-content-between">
-                                <button type="submit" class="btn btn-secondary" >Belépés</button>
-                                <a href="javascript: void(0)">Elfelejtett Jelszó?</a>
-                            </div>
-                        </div>
-
-                        
-                </div>
-            </div>
-    </div>
-
 
   
     <div class="container">
