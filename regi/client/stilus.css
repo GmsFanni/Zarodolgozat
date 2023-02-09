@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(156, 168, 201);
+  margin-top:15px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:15px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+  }
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: rgb(18, 18, 18);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    align-items: center;
+  }
+ 
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(151, 227, 100);
+    color: black;
+  }
+  
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  #slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }

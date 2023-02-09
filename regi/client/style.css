@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(210, 205, 205);
+    background-color: rgb(156, 168, 201);
     margin-top:15px;
     margin-left:50px;
     margin-right:50px;
@@ -12,10 +12,3 @@ body{
     background: white;
     color: black;
   }
-
-.navbar{
-    display: flex;
-    background-color: rgb(18, 18, 18);
-    align-items: center;
-    justify-content: center;
-}
